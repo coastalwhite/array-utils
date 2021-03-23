@@ -1,9 +1,21 @@
 [package]
 name = "array-utils"
 description = "A no-std heapless set of array utils making use of const generics"
-version = "0.0.0"
+keywords = ["array", "generics", "embedded", "utilities", "utils"]
+categories = ["no-std", "embedded"]
+version = "0.1.0"
 authors = ["Gijs Burghoorn <me@gburghoorn.com>"]
 edition = "2018"
 license = "MIT"
 
-[dependencies]
+[features]
+default = ["initialize", "drift", "slice", "splice", "join", "resize",
+"superimpose"]
+
+initialize = []
+drift = []
+slice = []
+splice = []
+join = []
+resize = []
+superimpose = []
