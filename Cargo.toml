@@ -1,6 +1,8 @@
 [package]
 name = "array-utils"
 description = "A no-std heapless set of array utils making use of const generics"
+homepage = "https://github.com/coastalwhite/array-utils"
+repository = "https://github.com/coastalwhite/array-utils"
 keywords = ["array", "generics", "embedded", "utilities", "utils"]
 categories = ["no-std", "embedded"]
 version = "0.1.0"
